@@ -80,7 +80,7 @@ class Address(BaseAddress):
     :param address: a Monero address as string-like object
     :param label: a label for the address (defaults to `None`)
     """
-    _valid_netbytes = (0xe2386, 53, 24)
+    _valid_netbytes = (134, 53, 24)
     # NOTE: _valid_netbytes order is (mainnet, testnet, stagenet)
 
     def view_key(self):
