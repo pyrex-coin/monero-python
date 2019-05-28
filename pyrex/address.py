@@ -22,7 +22,7 @@ class BaseAddress(object):
     def __init__(self, addr, label=None):
         addr = str(addr)
         if not _ADDR_REGEX.match(addr):
-            raise ValueError("Address must be 95 characters long base58-encoded string, "
+            raise ValueError("Address must be 98 characters long base58-encoded string, "
                 "is {addr} ({len} chars length)".format(addr=addr, len=len(addr)))
         self._decode(addr)
         self.label = label or self.label
@@ -80,7 +80,7 @@ class Address(BaseAddress):
     :param address: a Monero address as string-like object
     :param label: a label for the address (defaults to `None`)
     """
-    _valid_netbytes = (18, 53, 24)
+    _valid_netbytes = (0xe2386, 53, 24)
     # NOTE: _valid_netbytes order is (mainnet, testnet, stagenet)
 
     def view_key(self):
