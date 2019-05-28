@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-from monero.address import Address
-from monero.seed import Seed
-from monero.wordlists import list_wordlists
+from pyrex.address import Address
+from pyrex.seed import Seed
+from pyrex.wordlists import list_wordlists
 
 class SeedTestCase(unittest.TestCase):
 

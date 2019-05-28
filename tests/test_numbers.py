@@ -2,7 +2,7 @@ from decimal import Decimal
 import sys
 import unittest
 
-from monero.numbers import to_atomic, from_atomic, as_monero, PaymentID
+from pyrex.numbers import to_atomic, from_atomic, as_monero, PaymentID
 
 class NumbersTestCase(unittest.TestCase):
     def test_simple_numbers(self):

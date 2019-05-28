@@ -1,5 +1,5 @@
-from monero.backends.offline import OfflineWallet, WalletIsOffline
-from monero.wallet import Wallet
+from pyrex.backends.offline import OfflineWallet, WalletIsOffline
+from pyrex.wallet import Wallet
 import unittest
 from .base import JSONTestCase
 

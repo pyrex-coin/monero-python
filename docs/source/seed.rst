@@ -20,7 +20,7 @@ By default, constructing the ``Seed`` class without any parameters will generate
 
 .. code-block:: python
 
-    In  [1]: from monero.seed import Seed
+    In  [1]: from pyrex.seed import Seed
 
     In  [2]: s = Seed()
 
@@ -38,7 +38,7 @@ If you have an existing mnemonic word or hexadecimal seed that you would like to
 
 .. code-block:: python
 
-    In  [1]: from monero.seed import Seed
+    In  [1]: from pyrex.seed import Seed
 
     In  [2]: s = Seed("73192a945d7400a3a76a941be451a9623f37dd834006d02140a6a762b9142d80")
 
@@ -67,7 +67,7 @@ Once the ``Seed`` class is constructed, you can derive `all of the keys`_ associ
 
 .. code-block:: python
 
-    In  [1]: from monero.seed import Seed
+    In  [1]: from pyrex.seed import Seed
 
     In  [2]: s = Seed("fewest lipstick auburn cocoa macro circle hurried impel macro hatchet jeopardy swung aloof spiders gags jaws abducts buying alpine athlete junk patio academy loudly academy")
 

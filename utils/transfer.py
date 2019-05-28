@@ -8,10 +8,10 @@ import random
 import re
 
 import monero
-from monero.address import address
-from monero.numbers import PaymentID, as_monero
-from monero.wallet import Wallet
-from monero.backends.jsonrpc import JSONRPCWallet
+from pyrex.address import address
+from pyrex.numbers import PaymentID, as_monero
+from pyrex.wallet import Wallet
+from pyrex.backends.jsonrpc import JSONRPCWallet
 
 def url_data(url):
     gs = re.compile(

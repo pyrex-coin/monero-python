@@ -4,9 +4,9 @@ from operator import attrgetter
 import random
 import unittest
 
-from monero.address import address
-from monero.numbers import PaymentID
-from monero.transaction import IncomingPayment, OutgoingPayment, Transaction, _ByHeight
+from pyrex.address import address
+from pyrex.numbers import PaymentID
+from pyrex.transaction import IncomingPayment, OutgoingPayment, Transaction, _ByHeight
 
 class FiltersTestCase(unittest.TestCase):
     def setUp(self):

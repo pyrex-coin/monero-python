@@ -6,11 +6,11 @@ try:
 except ImportError:
     from mock import patch, Mock
 
-from monero.wallet import Wallet
-from monero.address import BaseAddress, Address
-from monero.seed import Seed
-from monero.transaction import IncomingPayment, OutgoingPayment, Transaction
-from monero.backends.jsonrpc import JSONRPCWallet
+from pyrex.wallet import Wallet
+from pyrex.address import BaseAddress, Address
+from pyrex.seed import Seed
+from pyrex.transaction import IncomingPayment, OutgoingPayment, Transaction
+from pyrex.backends.jsonrpc import JSONRPCWallet
 
 from .base import JSONTestCase
 

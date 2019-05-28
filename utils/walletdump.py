@@ -4,9 +4,9 @@ import logging
 import operator
 import re
 
-from monero import exceptions
-from monero.backends.jsonrpc import JSONRPCWallet, RPCError
-from monero.wallet import Wallet
+from pyrex import exceptions
+from pyrex.backends.jsonrpc import JSONRPCWallet, RPCError
+from pyrex.wallet import Wallet
 
 def url_data(url):
     gs = re.compile(

@@ -26,7 +26,7 @@
 # Note about US patent no 5892470: Here each word does not represent a given digit.
 # Instead, the digit represented by a word is variable, it depends on the previous word.
 #
-# Copied 17 February 2018 from MoneroPy, originally from Electrum:
+# Copied 17 February 2018 from pyrexPy, originally from Electrum:
 #     https://github.com/bigreddmachine/MoneroPy/blob/master/moneropy/mnemonic.py ch: 80cc16c39b16c55a8d052fbf7fae68644f7a5f02
 #     https://github.com/spesmilo/electrum/blob/master/lib/old_mnemonic.py ch:9a0aa9b4783ea03ea13c6d668e080e0cdf261c5b
 #
@@ -35,10 +35,10 @@
 #   + simplified interface, changed exceptions (assertions -> explicit raise)
 #   + optimization
 
-from monero import wordlists
-from monero import ed25519
-from monero import base58
-from monero.address import address
+from pyrex import wordlists
+from pyrex import ed25519
+from pyrex import base58
+from pyrex.address import address
 from binascii import hexlify, unhexlify
 from os import urandom
 from sha3 import keccak_256

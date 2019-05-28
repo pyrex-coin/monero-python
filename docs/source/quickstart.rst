@@ -79,9 +79,9 @@ Connect to the wallet
 
 .. code-block:: python
 
-    In [1]: from monero.wallet import Wallet
+    In [1]: from pyrex.wallet import Wallet
 
-    In [2]: from monero.backends.jsonrpc import JSONRPCWallet
+    In [2]: from pyrex.backends.jsonrpc import JSONRPCWallet
 
     In [3]: w = Wallet(JSONRPCWallet(port=28088))
 

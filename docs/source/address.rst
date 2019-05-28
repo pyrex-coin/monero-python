@@ -27,7 +27,7 @@ Let's start with the master address:
 
 .. code-block:: python
 
-    In [1]: from monero.address import address
+    In [1]: from pyrex.address import address
 
     In [2]: a = address('A2GmyHHJ9jtUhPiwoAbR2tXU9LJu2U6fJjcsv3rxgkVRWU6tEYcn6C1NBc7wqCv5V7NW3zeYuzKf6RGGgZTFTpVC4QxAiAX')
 
@@ -136,7 +136,7 @@ integer and hexadecimal string representations.
 
 .. code-block:: python
 
-    In [18]: from monero.numbers import PaymentID
+    In [18]: from pyrex.numbers import PaymentID
 
     In [19]: p1 = PaymentID(0xfeedbadbeef)
 

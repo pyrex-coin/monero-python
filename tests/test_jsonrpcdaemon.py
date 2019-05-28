@@ -1,9 +1,9 @@
 from binascii import hexlify
 import responses
 
-from monero.daemon import Daemon
-from monero.backends.jsonrpc import JSONRPCDaemon
-from monero.transaction import Transaction
+from pyrex.daemon import Daemon
+from pyrex.backends.jsonrpc import JSONRPCDaemon
+from pyrex.transaction import Transaction
 
 from .base import JSONTestCase
 

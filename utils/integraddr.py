@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
-from monero.address import address
-from monero.numbers import PaymentID
+from pyrex.address import address
+from pyrex.numbers import PaymentID
 
 USAGE = "{0} <address> <payment_id>"
 

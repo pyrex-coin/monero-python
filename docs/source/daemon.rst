@@ -6,9 +6,9 @@ wallet, the only available backend is JSON RPC.
 
 .. code-block:: python
 
-    In [1]: from monero.daemon import Daemon
+    In [1]: from pyrex.daemon import Daemon
 
-    In [2]: from monero.backends.jsonrpc import JSONRPCDaemon
+    In [2]: from pyrex.backends.jsonrpc import JSONRPCDaemon
 
     In [3]: daemon = Daemon(JSONRPCDaemon(port=28081))
 
@@ -29,9 +29,9 @@ The only difference is that now you want to add the ``relay=False`` argument.
 
 .. code-block:: python
 
-    In [5]: from monero.wallet import Wallet
+    In [5]: from pyrex.wallet import Wallet
 
-    In [6]: from monero.backends.jsonrpc import JSONRPCWallet
+    In [6]: from pyrex.backends.jsonrpc import JSONRPCWallet
 
     In [7]: wallet = Wallet(JSONRPCWallet(port=28088))
 
