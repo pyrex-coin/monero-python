@@ -1,29 +1,27 @@
-Python Monero module
+Python Pyrex module
 ====================
 
 |travis|_ |coveralls|_
 
 
-.. |travis| image:: https://travis-ci.org/monero-ecosystem/monero-python.svg
-.. _travis: https://travis-ci.org/monero-ecosystem/monero-python
+.. |travis| image:: https://travis-ci.org/pyrex-coin/pyrex-python.svg
+.. _travis: https://travis-ci.org/pyrex-coin/pyrex-python
 
 
-.. |coveralls| image:: https://coveralls.io/repos/github/monero-ecosystem/monero-python/badge.svg
-.. _coveralls: https://coveralls.io/github/monero-ecosystem/monero-python
+.. |coveralls| image:: https://coveralls.io/repos/github/pyrex-coin/pyrex-python/badge.svg
+.. _coveralls: https://coveralls.io/github/pyrex-coin/pyrex-python
 
 
-A comprehensive Python module for handling Monero cryptocurrency.
+A comprehensive Python module for handling Pyrex cryptocurrency.
 
 * release 0.5.3
-* open source: https://github.com/monero-ecosystem/monero-python
-* works with Monero 0.12.x and `the latest source`_ (at least we try to keep up)
+* open source: https://github.com/pyrex-coin/pyrex-python
+* works with Pyrex 0.13.x and `the latest source`_ (at least we try to keep up)
 * Python 2.x and 3.x compatible
 * comes with `documentation`_
-* generously funded by `Monero FFS`_ donors
 
-.. _`the latest source`: https://github.com/monero-project/monero
-.. _`documentation`: http://monero-python.readthedocs.io/en/latest/
-.. _`Monero FFS`: https://forum.getmonero.org/9/work-in-progress
+.. _`the latest source`: https://github.com/pyrex-coin/pyrex
+.. _`documentation`: http://pyrex-coin.readthedocs.io/en/latest/
 
 Copyrights
 ----------
